@@ -1,0 +1,11 @@
+#!/bin/bash
+
+if [[ $QUIET_MODE != "1" ]]; then
+  echo "Running Node Container"
+  echo "----------------------"
+  echo "Node: $(node --version);"
+  echo "npm: $(npm --version);"
+  echo "yarn: $(yarn --version)"
+  echo "----------------------"
+  echo
+fi
